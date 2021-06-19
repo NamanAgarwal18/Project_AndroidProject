@@ -1,4 +1,4 @@
-# Student Connect - Android Project![final_logo - Copy](https://user-images.githubusercontent.com/53811147/122639480-bb31fb00-d117-11eb-9cde-284d5054e0ef.png)
+# ![final_logo - Copy](https://user-images.githubusercontent.com/53811147/122639480-bb31fb00-d117-11eb-9cde-284d5054e0ef.png) Student Connect - Android Project
 
 
 ## Description
