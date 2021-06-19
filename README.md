@@ -22,8 +22,8 @@ Student Connect is a Social Media app created for android. It has all the basic 
 
 <table align="Center">
  <tr>
-  <td width=50%> <h2> Tools Used </h2> </td>
-  <td width=50%> <h2> Languages Used </h2> </td>
+  <td width=50%> <h3> Tools Used </h3> </td>
+  <td width=50%> <h3> Languages Used </h3> </td>
  </tr>
  <tr>
   <th align="Left"> 1. Android Studio <br>
