@@ -10,6 +10,8 @@ The signup Page consists of 2 different pages -
  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122669869-d6b30980-d1dc-11eb-9c13-e9c778e55d7a.gif" > 
 </p>
 
+## Cloud Function
+We have also created a cloud fucntion to create all the appropriate directories in the backend parallely. 
 
 ## Backend
 For signup we check weather the emailid or the username or the phone number is already taken or not. If everything is unique and all the details are properly filled then we save the user in authentication and create appropreate directories in the backend for the user. 
