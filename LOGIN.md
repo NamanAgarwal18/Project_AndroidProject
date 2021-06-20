@@ -4,13 +4,31 @@
 <br>
 <br>
 <br>
+<style>
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+</style>
+<div class="container">
+  <div class="vertical-center">
 
 ## Description
 
 The Login page authenticates the existing users and logs them in to their own feed. All the user information is validated and stored at the backend and all the passwords are hashed before storing into the database. The user logs in using their email id and password. <br>
 The login page also remembers whether a user is already logged in and takes them directly to their homepage.
 
-</img>
+ </div>
+</div>
 
 
 
