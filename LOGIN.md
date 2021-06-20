@@ -23,8 +23,12 @@ For more information about Firebase Authentication [Click Here](https://firebase
 </p>
 
 
- 
-<img  align="right" width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665690-4ec20500-d1c6-11eb-8071-6c0c7eb16ed8.jpg"> 
+## Checks Installed
+#### We check a few things even before we send the credentials in the backend to verify the user. This reduces some of our false backend calls and makes the app feel faster.
+1. We Check if the user has entered the Email id or not and we also check if the email id is a valid email id.
+ <p align="center">
+<img  width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665690-4ec20500-d1c6-11eb-8071-6c0c7eb16ed8.jpg"> 
+</p>
 
 
 
