@@ -46,13 +46,14 @@ Our App uses 3 different machine learning models in total. Two of them are inbui
 #### 1. Image labeling (Inbuilt)
 With Cloud Vision's image labeling API, you can recognize entities in an image without having to provide any additional contextual metadata. <br>
 Image labeling gives you insight into the content of images. When you use the API, you get a list of the entities that were recognized: people, things, places, activities, and so on. Each label found comes with a score that indicates the confidence the ML model has in its relevance. With this information, you can perform tasks such as automatic metadata generation and content moderation. <br>
-For more information about the Api [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1) <br>
-To unerstand about the implementation of the Api by us [Click Here]
+For more information about the Api - [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1) <br>
+To unerstand about the implementation of the Api by us - [Click Here]
 #### 2. Face Detection (Inbuilt)
 With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces. Note that the API detects faces, it does not recognize people. <br>
 With face detection, you can get the information you need to perform tasks like embellishing selfies and portraits, or generating avatars from a user's photo. Because ML Kit can perform face detection in real time, you can use it in applications like video chat or games that respond to the player's expressions. <br>
-For more information about the Api [Click Here](https://developers.google.com/ml-kit/vision/face-detection) <br>
-To unerstand about the implementation of the Api by us [Click Here]
+For more information about the Api - [Click Here](https://developers.google.com/ml-kit/vision/face-detection) <br>
+To unerstand about the implementation of the Api by us - [Click Here]
+#### 2. Face Detection (Inbuilt)
 
 ## Gestures Incorporated
 * Single Tap
