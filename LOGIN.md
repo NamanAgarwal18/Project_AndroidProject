@@ -18,8 +18,10 @@ For logging in we currently only use **"Email/Password"** login methord although
 For more information about Firebase Authentication [Click Here](https://firebase.google.com/docs/auth?authuser=1)
  
 <p align="center">
- <img   width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122667014-3524bb80-d1ce-11eb-9d8d-23fe6acd6763.PNG"> 
+ <img   width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122667056-7a48ed80-d1ce-11eb-8f11-782fb2900e53.PNG"> 
 </p>
+
+
  
 <img  align="right" width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665690-4ec20500-d1c6-11eb-8071-6c0c7eb16ed8.jpg"> 
 
