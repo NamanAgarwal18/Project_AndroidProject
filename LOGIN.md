@@ -3,9 +3,9 @@
 <p align="center">
 <a href="https://www.youtube.com/watch?v=fQOQCK0wCHc" target="_blank"><img src="http://img.youtube.com/vi/fQOQCK0wCHc/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
  </p>
- 
+ <p align="center">
 [<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=fQOQCK0wCHc)
-
+ </p>
 ## Description 
 The Login page authenticates the existing users and logs them in to their own feed. All the user information is validated and stored at the backend and all the passwords are hashed before storing into the database. The user logs in using their email id and password. <br>
 The login page also remembers whether a user is already logged in and takes them directly to their homepage.
