@@ -44,3 +44,11 @@ Student Connect is a Social Media app created for android. It has all the basic 
   * ```com.google.maps.android:android-maps-utils-v3:1.3.1```
   * ```com.google.auto.value:auto-value-annotations:1.6.5```
   * ```com.google.android.libraries.maps:maps:3.1.0-beta```
+* Firebase Cloud Functions - provides the fucntionality of defining javascript fucntions on the cloud.
+  * ```com.google.firebase:firebase-functions:19.2.0```
+* Image Labeling - used to call the cloud image labling model by firebase.
+  * ```com.google.mlkit:image-labeling:17.0.3```
+  * ```com.google.android.gms:play-services-mlkit-image-labeling:16.0.3```
+* Face Detection - used to call on device face detection model by firebase.
+  * ```com.google.mlkit:face-detection:16.0.6```
+  * ```com.google.android.gms:play-services-mlkit-face-detection:16.1.5```
