@@ -20,6 +20,22 @@ Student Connect is a Social Media app created for android. It has all the basic 
    * Face Detection (On Device)
    * Image Labeling (On Cloud)
 
+## Machine Learning
+Our App uses 3 different machine learning models in total. Two of them are inbuild models provided by the Google's Firebase based on the Tenserflow Libraries and the third one is build by us using Weighted KNN Classifier algorithm.
+#### 1. Image labeling (Inbuilt)
+With Cloud Vision's image labeling API, you can recognize entities in an image without having to provide any additional contextual metadata. <br>
+Image labeling gives you insight into the content of images. When you use the API, you get a list of the entities that were recognized: people, things, places, activities, and so on. Each label found comes with a score that indicates the confidence the ML model has in its relevance. With this information, you can perform tasks such as automatic metadata generation and content moderation. <br>
+For more information about the Api - [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1) <br>
+To understand about the implementation of the Api by us - [Click Here]
+#### 2. Face Detection (Inbuilt)
+With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces. Note that the API detects faces, it does not recognize people. <br>
+With face detection, you can get the information you need to perform tasks like embellishing selfies and portraits, or generating avatars from a user's photo. Because ML Kit can perform face detection in real time, you can use it in applications like video chat or games that respond to the player's expressions. <br>
+For more information about the Api - [Click Here](https://developers.google.com/ml-kit/vision/face-detection) <br>
+To understand about the implementation of the Api by us - [Click Here]
+#### 3. Friends Recommendation Engine 
+We use user details to make friend suggestions. Friend suggestions depend on the professional course of the user, the level of completion of their course, posts they have made (Their Personal Interests) and interacted with and the people who they are friends with. We have used **Weighted KNN Classifier** for friend recommendations. Each tag is assigned particular value. The friend list is assigned the most value, followed by the course and level of course. Then comes the value of tag of each post, uploaded by the user and finally the least priority is given to the posts with which the user has interacted. <br>
+To understand more about the algorithm used and how we used it - [Click Here]
+
 ## Functionalities
 1. Students can Signin or SignUp in the app using appropreate credentials.
 2. Users can add other people as their friends.
@@ -41,21 +57,17 @@ Student Connect is a Social Media app created for android. It has all the basic 
     * Forward a message
     * Copy a message
 
-## Machine Learning
-Our App uses 3 different machine learning models in total. Two of them are inbuild models provided by the Google's Firebase based on the Tenserflow Libraries and the third one is build by us using Weighted KNN Classifier algorithm.
-#### 1. Image labeling (Inbuilt)
-With Cloud Vision's image labeling API, you can recognize entities in an image without having to provide any additional contextual metadata. <br>
-Image labeling gives you insight into the content of images. When you use the API, you get a list of the entities that were recognized: people, things, places, activities, and so on. Each label found comes with a score that indicates the confidence the ML model has in its relevance. With this information, you can perform tasks such as automatic metadata generation and content moderation. <br>
-For more information about the Api - [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1) <br>
-To understand about the implementation of the Api by us - [Click Here]
-#### 2. Face Detection (Inbuilt)
-With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces. Note that the API detects faces, it does not recognize people. <br>
-With face detection, you can get the information you need to perform tasks like embellishing selfies and portraits, or generating avatars from a user's photo. Because ML Kit can perform face detection in real time, you can use it in applications like video chat or games that respond to the player's expressions. <br>
-For more information about the Api - [Click Here](https://developers.google.com/ml-kit/vision/face-detection) <br>
-To understand about the implementation of the Api by us - [Click Here]
-#### 3. Friends Recommendation Engine 
-We use user details to make friend suggestions. Friend suggestions depend on the professional course of the user, the level of completion of their course, posts they have made (Their Personal Interests) and interacted with and the people who they are friends with. We have used **Weighted KNN Classifier** for friend recommendations. Each tag is assigned particular value. The friend list is assigned the most value, followed by the course and level of course. Then comes the value of tag of each post, uploaded by the user and finally the least priority is given to the posts with which the user has interacted. <br>
-To understand more about the algorithm used and how we used it - [Click Here]
+## Cloud Fucntions
+Cloud Functions for Firebase is a serverless framework that lets you automatically run backend code in response to events triggered by Firebase features and HTTPS requests. Your **JavaScript** or **TypeScript** code is stored in Google's cloud and runs in a managed environment. There's no need to manage and scale your own servers.
+For more information about the **Firebase Cloud Funtions** [Click Here](https://firebase.google.com/docs/functions)
+### Cloud Functions Created
+We have created in total 7 cloud fucntions out of which 5 cloud functions are used in our application. All these Cloud functions are written in **JavaScript** by us and executed on Google's Cloud. These fucntions are deployed on the ```asia-south1``` server as it is the nearest to India and provides low latency. The cloud fucntions currently in use by our app are:
+1. [createUser](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SIGNUP.md)
+2. [deletePost]()
+3. [likePost]()
+4. [dislikePost]()
+5. [uploadPost]()
+#### Click on the fucntion to know more about it.
 
 
 ## Gestures Incorporated
