@@ -1,6 +1,6 @@
 # Main Feed Activity and Search Fucntonality
 
-# Description
+## Description
 The User Feed is a personalized feed based upon the user’s friend list and interests. It keeps them updated about all the activities of their friends. Like a genuine social media, they can give their opinions in the comment section and like the photo and can also use the search option.
 
 <p align="center">
