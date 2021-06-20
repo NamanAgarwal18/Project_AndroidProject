@@ -1,4 +1,4 @@
-# Login Page
+# Login Activity
 
 
 <a href="https://www.youtube.com/watch?v=fQOQCK0wCHc" target="_blank"><img src="http://img.youtube.com/vi/fQOQCK0wCHc/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
