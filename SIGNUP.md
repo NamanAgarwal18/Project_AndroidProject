@@ -10,7 +10,7 @@ The signup Page consists of 2 different pages -
  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122669869-d6b30980-d1dc-11eb-9c13-e9c778e55d7a.gif" > 
 </p>
 
-## Cloud Function
+## Cloud Function - createUser
 We have also created a cloud fucntion to create all the appropriate directories in the backend parallely. 
 
 ## Backend
