@@ -45,7 +45,7 @@ Student Connect is a Social Media app created for android. It has all the basic 
 Our App uses 3 different machine learning models in total. Two of them are inbuild models provided by the Google's Firebase based on the Tenserflow Libraries and the third one is build by us using Weighted KNN Classifier algorithm.
 ### 1. Image labeling (Inbuilt)
 With Cloud Vision's image labeling API, you can recognize entities in an image without having to provide any additional contextual metadata.
-Image labeling gives you insight into the content of images. When you use the API, you get a list of the entities that were recognized: people, things, places, activities, and so on. Each label found comes with a score that indicates the confidence the ML model has in its relevance. With this information, you can perform tasks such as automatic metadata generation and content moderation
+Image labeling gives you insight into the content of images. When you use the API, you get a list of the entities that were recognized: people, things, places, activities, and so on. Each label found comes with a score that indicates the confidence the ML model has in its relevance. With this information, you can perform tasks such as automatic metadata generation and content moderation.
 For more information about the Api [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1)
 To unerstand about the implementation of the Api by us [Click Here]
 
