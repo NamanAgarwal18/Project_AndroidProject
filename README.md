@@ -20,7 +20,32 @@ Student Connect is a Social Media app created for android. It has all the basic 
    * Face Detection (On Device)
    * Image Labeling (On Cloud)
 
-## [Log-In](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/LOGIN.md)
+## Functionalities
+1. Students can Signin or SignUp in the app using appropreate credentials.
+2. Users can add other people as their friends.
+3. Users can upload posts in the form of photos and tag people in it.
+4. Users can view and interact eith the posts uploaded by their friends by liking and comenting them.
+5. Usrers also have the option to remove their tag from photos.
+6. Users can search for other people by their:
+   * Name
+   * Username
+   * College
+   * Branch
+7. Users can search for a particular college to get their address and details.
+8. Users can get reccomendations of people they can add as a friend based on their college, vacinity and on their interests.
+9. Users can chat with other users in our chat feature.
+10. In the chat, users can: 
+    * Like/dislike a message
+    * Delete their own message
+    * Reply to a message
+    * Forward a message
+    * Copy a message
+
+## Gestures Incorporated
+* Single Tap
+* Double Tap
+* Long Press
+* Overridden Back buton 
 
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
