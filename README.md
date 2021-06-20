@@ -30,4 +30,17 @@ Student Connect is a Social Media app created for android. It has all the basic 
 * Shape Image View Library – to set image shape.
   * ```com.github.siyamed:android-shape-imageview:0.9.3@aar```
 * Justify text library – aligns the text in justified view.
-  me.biubiubiu.justifytext:library:1.1
+  * ```me.biubiubiu.justifytext:library:1.1```
+* Styleable toast – builds custom toast view.
+  * ```com.muddzdev:styleabletoast:2.2.4```
+* Card View – creates depth effect in the layout.
+  * ```androidx.cardview:cardview:1.0.0```
+* Palette – extracts prominent colours from the image.
+  * ```androidx.palette:palette:1.0.0```
+* Groupie View Holder – provides a ready-made adapter for recycler view.
+  * ```com.xwray:groupie:2.8.1```
+* Android Play Services and Map Utils – provides map view and map functions.
+  * ```com.google.android.gms:play-services-maps:17.0.0```
+  * ```com.google.maps.android:android-maps-utils-v3:1.3.1```
+  * ```com.google.auto.value:auto-value-annotations:1.6.5```
+  * ```com.google.android.libraries.maps:maps:3.1.0-beta```
