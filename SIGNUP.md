@@ -16,9 +16,9 @@ For signup we check weather the emailid or the username or the phone number is a
 In the backend we save the Dp in the storage and retrieve the link of the image. Then we create the user in the **"User"** Collection. We also save the user in the **"University"** Collection into their respective directories. We also connect the ```UID``` provided by the **Firebase Authentication** with the username in the **"User Table"**.
 
 <p align="center">
-  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122670341-3ad6cd00-d1df-11eb-9106-b772f44292bf.PNG" >
-  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122670343-3ca09080-d1df-11eb-8cee-87d63d13ee71.PNG" >
-  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122670344-3e6a5400-d1df-11eb-955d-f4190da54b57.PNG" >
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122670341-3ad6cd00-d1df-11eb-9106-b772f44292bf.PNG" >
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122670343-3ca09080-d1df-11eb-8cee-87d63d13ee71.PNG" >
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122670344-3e6a5400-d1df-11eb-955d-f4190da54b57.PNG" >
 
 </p>
 
