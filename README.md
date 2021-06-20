@@ -20,7 +20,7 @@ Student Connect is a Social Media app created for android. It has all the basic 
    * Face Detection (On Device)
    * Image Labeling (On Cloud)
 
-
+## [Log-In](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/LOGIN.md)
 
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
