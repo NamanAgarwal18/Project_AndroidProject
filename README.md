@@ -68,7 +68,7 @@ To unerstand about the implementation of the Api by us [Click Here]
 * Glide – image rendering tool.
   * ```com.github.bumptech.glide:glide:4.11.0```
 <details><summary>Click Here To See All</summary>
- <p>
+ 
 * Shape Image View Library – to set image shape.
   * ```com.github.siyamed:android-shape-imageview:0.9.3@aar```
 * Justify text library – aligns the text in justified view.
@@ -94,6 +94,6 @@ To unerstand about the implementation of the Api by us [Click Here]
 * Face Detection - used to call on device face detection model by firebase.
   * ```com.google.mlkit:face-detection:16.0.6```
   * ```com.google.android.gms:play-services-mlkit-face-detection:16.1.5```
- </p>
+ 
 </details>
  
