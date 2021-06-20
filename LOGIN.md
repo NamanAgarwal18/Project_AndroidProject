@@ -14,7 +14,8 @@ Most apps need to know the identity of a user. Knowing a user's identity allows 
 Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.
 Firebase Authentication integrates tightly with other Firebase services, and it leverages industry standards like OAuth 2.0 and OpenID Connect, so it can be easily integrated with your custom backend. <br>
 
-For logging in we currently only use **"Email/Password"** login methord although we store the phone number as well. 
+For logging in we currently only use **"Email/Password"** login methord although we store the phone number as well. <br>
+
 For more information about Firebase Authentication [Click Here](https://firebase.google.com/docs/auth?authuser=1)
  
 <p align="center">
