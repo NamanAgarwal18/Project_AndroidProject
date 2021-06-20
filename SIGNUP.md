@@ -14,8 +14,7 @@ The signup Page consists of 2 different pages -
 We have also created a cloud fucntion to create all the appropriate directories in the backend parallely. This will ensure that all the directories are created even if the app crashes in the middle of the execution. This latency is higher when you compare it with creating all the directories from the device but it it ensures atomicity in the querty and thus always successfully either creates all the directories or creates none of them.
 
 <p align="center">
-  <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122671959-b8eaa200-d1e6-11eb-80eb-76f6e190312e.PNG" >
-
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122671989-e6375000-d1e6-11eb-8a79-3001234c0f32.PNG" >
 </p>
 
 ## Backend
