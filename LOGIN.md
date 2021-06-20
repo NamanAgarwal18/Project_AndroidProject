@@ -1,9 +1,7 @@
 # Login Page
 
 <img  align="right" width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665029-80d16800-d1c2-11eb-88c3-d4251e4ebe44.jpg"> 
-<br>
-<br>
-<br>
+
 <style>
 .container {
   height: 200px;
