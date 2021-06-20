@@ -22,3 +22,34 @@ In the backend we save the Dp in the storage and retrieve the link of the image.
 
 </p>
 
+## Checks Installed
+#### We check a few things even before we send the credentials in the backend to create the user. This reduces some of our false backend calls and makes the app feel faster.
+1. We Check if the user has left any field empty or not.
+<p align="center">
+ <img  width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122671015-5394b200-d1e2-11eb-8b14-2be1ce054303.jpg"> 
+</p>
+
+2. We also check that if the username is already taken by other user.
+<p align="center">
+ <img  width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122671046-7a52e880-d1e2-11eb-88bf-7943a09cdb82.jpg"> 
+</p>
+
+3. We check if the password is not following the minimum criteria. Our minimum criteria inlcudes:
+    * Atleast 6 characters
+    * Atleast 1 alphabet
+    * Atleast 1 special character
+    * Atleast 1 number 
+<p align="center">
+ <img  width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122671124-d0c02700-d1e2-11eb-855c-94003440e871.jpg"> 
+</p>
+
+4. We also check if the phone number is valid or not. In India all the phone number are of 10 digits and start from either 6 or 7 or 8 or 9.
+<p align="center">
+ <img  width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122671158-f5b49a00-d1e2-11eb-8360-0b26bb459f40.png"> 
+</p>
+
+5. We check if the email is in a proper format or not.
+6. We also check if the user has selected appropreate college or not.
+
+
+
