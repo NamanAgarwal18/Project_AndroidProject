@@ -1,4 +1,4 @@
-# Sign-Up Page
+# Sign-Up Activity and College Details Activity
 
 ## Description 
 The signup Page consists of 2 different pages - 
