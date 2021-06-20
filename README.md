@@ -47,13 +47,16 @@ Our App uses 3 different machine learning models in total. Two of them are inbui
 With Cloud Vision's image labeling API, you can recognize entities in an image without having to provide any additional contextual metadata. <br>
 Image labeling gives you insight into the content of images. When you use the API, you get a list of the entities that were recognized: people, things, places, activities, and so on. Each label found comes with a score that indicates the confidence the ML model has in its relevance. With this information, you can perform tasks such as automatic metadata generation and content moderation. <br>
 For more information about the Api - [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1) <br>
-To unerstand about the implementation of the Api by us - [Click Here]
+To understand about the implementation of the Api by us - [Click Here]
 #### 2. Face Detection (Inbuilt)
 With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces. Note that the API detects faces, it does not recognize people. <br>
 With face detection, you can get the information you need to perform tasks like embellishing selfies and portraits, or generating avatars from a user's photo. Because ML Kit can perform face detection in real time, you can use it in applications like video chat or games that respond to the player's expressions. <br>
 For more information about the Api - [Click Here](https://developers.google.com/ml-kit/vision/face-detection) <br>
-To unerstand about the implementation of the Api by us - [Click Here]
-#### 2. Face Detection (Inbuilt)
+To understand about the implementation of the Api by us - [Click Here]
+#### 3. Friends Recommendation Engine 
+We use user details to make friend suggestions. Friend suggestions depend on the professional course of the user, the level of completion of their course, posts they have made (Their Personal Interests) and interacted with and the people who they are friends with. We have used Weighted KNN Classifier for friend recommendations. Each tag is assigned particular value. The friend list is assigned the most value, followed by the course and level of course. Then comes the value of tag of each post, uploaded by the user and finally the least priority is given to the posts with which the user has interacted. <br>
+To understand more about the algorithm used and how we used it - [Click Here]
+
 
 ## Gestures Incorporated
 * Single Tap
