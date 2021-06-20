@@ -22,9 +22,9 @@ Student Connect is a Social Media app created for android. It has all the basic 
 
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
-  * de.hdodenhof:circleimageview:3.1.0
+  * ```de.hdodenhof:circleimageview:3.1.0```
 * Picasso – image processing tool.
-  * com.squareup.picasso:picasso:2.71828
+  * ```com.squareup.picasso:picasso:2.71828```
 * Glide – image rendering tool.
   * com.github.bumptech.glide:glide:4.11.0
 * Shape Image View Library – to set image shape.
