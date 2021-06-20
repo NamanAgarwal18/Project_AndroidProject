@@ -1,5 +1,11 @@
 # Sign-Up Activity and College Details Activity
 
+
+<a href="https://www.youtube.com/watch?v=XiAdqzualYw" target="_blank"><img src="http://img.youtube.com/vi/XiAdqzualYw/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
+
+ 
+[<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=XiAdqzualYw)
+
 ## Description 
 The signup Page consists of 2 different pages - 
 1. Sign - Up page : The Sign-Up page creates new users. All the user information is validated and stored at the backend and the password is hashed before storing into the database.
