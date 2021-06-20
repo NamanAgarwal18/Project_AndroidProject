@@ -15,9 +15,12 @@ Firebase Authentication provides backend services, easy-to-use SDKs, and ready-m
 Firebase Authentication integrates tightly with other Firebase services, and it leverages industry standards like OAuth 2.0 and OpenID Connect, so it can be easily integrated with your custom backend. <br>
 
 For logging in we currently only use **"Email/Password"** login methord although we store the phone number as well. 
+For more information about Firebase Authentication [Click Here](https://firebase.google.com/docs/auth?authuser=1)
  
-
-
+<p align="center">
+ <img   width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122667014-3524bb80-d1ce-11eb-9d8d-23fe6acd6763.PNG"> 
+</p>
+ 
 <img  align="right" width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665690-4ec20500-d1c6-11eb-8071-6c0c7eb16ed8.jpg"> 
 
 
