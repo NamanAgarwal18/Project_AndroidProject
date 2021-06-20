@@ -1,14 +1,15 @@
 # Login Page
 
-<img  align="right" width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665029-80d16800-d1c2-11eb-88c3-d4251e4ebe44.jpg"> 
-
-
-
 ## Description
 The Login page authenticates the existing users and logs them in to their own feed. All the user information is validated and stored at the backend and all the passwords are hashed before storing into the database. The user logs in using their email id and password. <br>
 The login page also remembers whether a user is already logged in and takes them directly to their homepage.
 
+<img  align="center" width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665029-80d16800-d1c2-11eb-88c3-d4251e4ebe44.jpg"> 
+
 ---
+## Backend
+We are using **Firebase Authentication** at the backend to get the user logged in. 
+
 
 <img  align="right" width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122665690-4ec20500-d1c6-11eb-8071-6c0c7eb16ed8.jpg"> 
 
