@@ -1,0 +1,54 @@
+ # ![final_logo - Copy](https://user-images.githubusercontent.com/53811147/122639587-4f9c5d80-d118-11eb-9916-5deacaa6b877.png) Student Connect - Android Project 
+
+
+## Description
+Student Connect is a Social Media app created for android. It has all the basic features like chatting, adding people as friends, posting pictures and interacting with them, searching people and getting in app reccomendations for people that you might know or have a lot in common with. It is created with **Google's Firebase** Firestore backend to store the user data and we have also incorporated many features offered by the Firebase. This project also includes **Machine Learning** to suggest potential friends. 
+
+## Languages Used
+1. Kotlin
+2. XML
+3. JavaScript
+
+## Tools Used
+1. Android Studio
+2. Android Virtual Device
+3. Firebase Authentication
+4. Firebase Firestore (database)
+5. Firebase Storage
+6. Firebase Cloud Fuctions
+7. Firebase Machine Learning kit
+   * Face Detection (On Device)
+   * Image Labeling (On Cloud)
+
+## APIs and External Libraries Used
+* Circular Image View – loads image in a circular fashion 
+  * ```de.hdodenhof:circleimageview:3.1.0```
+* Picasso – image processing tool.
+  * ```com.squareup.picasso:picasso:2.71828```
+* Glide – image rendering tool.
+  * ```com.github.bumptech.glide:glide:4.11.0```
+* Shape Image View Library – to set image shape.
+  * ```com.github.siyamed:android-shape-imageview:0.9.3@aar```
+* Justify text library – aligns the text in justified view.
+  * ```me.biubiubiu.justifytext:library:1.1```
+* Styleable toast – builds custom toast view.
+  * ```com.muddzdev:styleabletoast:2.2.4```
+* Card View – creates depth effect in the layout.
+  * ```androidx.cardview:cardview:1.0.0```
+* Palette – extracts prominent colours from the image.
+  * ```androidx.palette:palette:1.0.0```
+* Groupie View Holder – provides a ready-made adapter for recycler view.
+  * ```com.xwray:groupie:2.8.1```
+* Android Play Services and Map Utils – provides map view and map functions.
+  * ```com.google.android.gms:play-services-maps:17.0.0```
+  * ```com.google.maps.android:android-maps-utils-v3:1.3.1```
+  * ```com.google.auto.value:auto-value-annotations:1.6.5```
+  * ```com.google.android.libraries.maps:maps:3.1.0-beta```
+* Firebase Cloud Functions - provides the fucntionality of defining javascript fucntions on the cloud.
+  * ```com.google.firebase:firebase-functions:19.2.0```
+* Image Labeling - used to call the cloud image labling model by firebase.
+  * ```com.google.mlkit:image-labeling:17.0.3```
+  * ```com.google.android.gms:play-services-mlkit-image-labeling:16.0.3```
+* Face Detection - used to call on device face detection model by firebase.
+  * ```com.google.mlkit:face-detection:16.0.6```
+  * ```com.google.android.gms:play-services-mlkit-face-detection:16.1.5```
