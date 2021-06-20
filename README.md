@@ -67,7 +67,7 @@ To unerstand about the implementation of the Api by us [Click Here]
   * ```com.squareup.picasso:picasso:2.71828```
 * Glide – image rendering tool.
   * ```com.github.bumptech.glide:glide:4.11.0```
-<details><summary><h4> Click Here To See All </h4></summary>
+<details><summary>Click Here To See All</summary>
  <p>
 * Shape Image View Library – to set image shape.
   * ```com.github.siyamed:android-shape-imageview:0.9.3@aar```
