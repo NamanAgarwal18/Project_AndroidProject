@@ -6,6 +6,7 @@
 The Login page authenticates the existing users and logs them in to their own feed. All the user information is validated and stored at the backend and all the passwords are hashed before storing into the database. The user logs in using their email id and password. <br>
 The login page also remembers whether a user is already logged in and takes them directly to their homepage.
 
-
+</img>
+abcd
 
 
