@@ -95,7 +95,21 @@ You also have the the option to remove somebody as your friend later on by click
 
 ### 2. Search a College
 The user can search college pages and access it by using a ```@``` symbol before entering other details. 
-<p align="center">
 
+<p align="center">
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122748228-92da0600-d2a9-11eb-9032-3970afdbc675.gif"> 
 </p>
+
+### College Page
+Each college page has a picture of the entrance of the college to help people identify the college, it has the name of the college and all the branches that are tought in that college. This basic information is necessary to be shownn to any individual.
+Apart from all these basic information:
+#### There is a live google map present in the activity which can be zoomed in and out, moved around or even be opened in a maps app.
+#### There is also an option to ```LONG PRESS``` on the adress given right below the Google Map and it automatically gets coppied into your **clipboardManager** to be pasted anywhere in the future. This can be especially usefulif you plan to send somebody the college address via message or even our chat feature.
+<p align="center">
+<img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122749654-3546b900-d2ab-11eb-871b-6e4b00cafe09.gif"> 
+</p>
+
+
+
+
+
