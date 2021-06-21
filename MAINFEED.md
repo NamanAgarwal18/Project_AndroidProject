@@ -49,3 +49,11 @@ Our app allows people to add comments on any post in their feed. All the comment
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122736188-5f917a00-d29d-11eb-84c3-b47b2c5451bd.gif"> 
   <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122736389-99628080-d29d-11eb-9c59-c24592959007.png"> 
 </p>
+
+### 4. See the Tagged People
+While uploading a picture you can tag all the people in the picture. By clicking over the tag count you can see who all were taggged and where were there faces. This feature makes your picture more dynamic and your tags more transparent. 
+
+
+<p align="center">
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122740277-70dc8580-d2a1-11eb-8a7b-7ec09b6941b9.gif"> 
+  </>
