@@ -105,8 +105,10 @@ Each college page has a picture of the entrance of the college to help people id
 Apart from all these basic information:
 #### 1. There is a live google map present in the activity which can be zoomed in and out, moved around or even be opened in a maps app.
 #### 2. There is also an option to ```LONG PRESS``` on the adress given right below the Google Map and it automatically gets coppied into your **clipboardManager** to be pasted anywhere in the future. This can be especially usefulif you plan to send somebody the college address via message or even our chat feature.
+
 <p align="center">
-<img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122749654-3546b900-d2ab-11eb-871b-6e4b00cafe09.gif"> 
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122749654-3546b900-d2ab-11eb-871b-6e4b00cafe09.gif"> 
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122752100-2a415800-d2ae-11eb-9aff-8f9d650b894a.gif"> 
 </p>
 
 
