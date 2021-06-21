@@ -42,7 +42,7 @@ We also have a feature to smartly detect when the likes have crossed thousands o
 
 
 ### 3. Commenting on a Post
-Our app allows people to add comments on any post in their feed. All the comments are saved with the userid of the person who commented and if you click the username then you can visit their profile as well ([Click Here]() to learn more abouth that). The comments are saved in the backend in the post under the comment section. 
+Our app allows people to add comments on any post in their feed. All the comments are saved with the userid of the person who commented and if you click the username then you can visit their profile as well ([Click Here](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#other-users-profile-page) to learn more abouth that). The comments are saved in the backend in the post under the comment section. 
 
 
 <p align="center">
