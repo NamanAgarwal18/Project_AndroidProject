@@ -1,5 +1,10 @@
 # Main Feed Activity and Search Fucntonality
 
+<a href="https://www.youtube.com/watch?v=WWVd_6JaapE" target="_blank"><img src="http://img.youtube.com/vi/WWVd_6JaapE/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
+
+ 
+[<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=WWVd_6JaapE)
+
 ## Description
 The User Feed is a personalized feed based upon the user’s friend list and interests. It keeps them updated about all the activities of their friends. Like a genuine social media, they can give their opinions in the comment section and like the photo and can also use the search option. 
 The Feed is empty if you have no friends but if you have friends then the feed shows the lates 20 posts by your friends. 
