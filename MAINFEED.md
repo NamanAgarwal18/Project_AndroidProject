@@ -29,5 +29,6 @@ For more information on **Palette API** [Click Here](https://developer.android.c
 <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122726148-5c918c00-d293-11eb-8fef-c2acc62f16cf.gif"> 
 </p>
 
-### 2. Liking a Post
-Our app allows people to like any post in their feed. There is a like button on the bottom-left corner of every post. When the like button is pressed, ac **Cloud Fucntion** named [likePost]() is called.
+### 2. Liking/Disliking a Post
+Our app allows people to like any post in their feed. There is a like button on the bottom-left corner of every post. When the like button is pressed, then a **Cloud Fucntion** named [likePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---likepost) is called which does all the heavy lifting. <br>
+Our app also allows people to dislike any post in their feed that they previously liked. A dislike button appears in the bottom-left corner if the post is already liked. When the dislike button is pressed, then a **Cloud Fucntion** named [dislikePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---likepost) is called which does all the heavy lifting.
