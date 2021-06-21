@@ -62,3 +62,14 @@ While uploading a picture you can tag all the people in the picture. By clicking
 ## Search Functionalities
 ### Search Description
 The user is granted the ability to search other users or search any college for information. Real time multi-word search is used to get the desired outcome, the search bar not case sensitive. The search uses highly advanced search algorithm, that enables the user to dynamically search the word even with a morpheme/ phrase (part of word) and display results appropriately. For increasing usability, the user can directly get the search option by using **Swipe Down** gesture. The feed is reloaded as soon as the user clears the search bar or as soon as the user **Swipes Up**.
+
+### 1. Search a User
+Users have the option to search for another user in the search bar. The user can take the benefit of a highly advanced search algorithm, which allows the user to compares the given morpheme/phrase form all the domains provided and gets the desired outcome. These domains include college, branch, year, username, full name etc. <br>
+In the example below **Naman Agarwal** is searched by the college first, then the branch, then the year and then the surname. The final search string being: <br>
+
+<p align="center">
+  <b> "bms comp 3 agar" </b>
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122741670-cebd9d00-d2a2-11eb-8f6c-ef6a0b8f003c.gif"> 
+</p>
+
+
