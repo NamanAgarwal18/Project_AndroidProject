@@ -39,3 +39,13 @@ We also have a feature to smartly detect when the likes have crossed thousands o
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122728093-63210300-d295-11eb-8752-0b1176da475c.jpg"> 
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122728174-78962d00-d295-11eb-9b23-7cdd4d7dc72a.png"> 
 </p>
+
+
+### 3. Commenting on a Post
+Our app allows people to add comments on any post in their feed. All the comments are saved with the userid of the person who commented and if you click the username then you can visit their profile as well. The comments are saved in the backend in the post under the comment section. 
+
+
+<p align="center">
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122736188-5f917a00-d29d-11eb-84c3-b47b2c5451bd.gif"> 
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122736389-99628080-d29d-11eb-9c59-c24592959007.png"> 
+</p>
