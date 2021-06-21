@@ -30,4 +30,4 @@ For more information on **Palette API** [Click Here](https://developer.android.c
 </p>
 
 ### 2. Liking a Post
-Our app allows people to like any post in their feed. There is a like button on the bottom-left corner of every post 
+Our app allows people to like any post in their feed. There is a like button on the bottom-left corner of every post. When the like button is pressed, ac **Cloud Fucntion** named [likePost]() is called.
