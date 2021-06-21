@@ -75,6 +75,10 @@ We have created in total 7 cloud fucntions out of which 5 cloud functions are us
 * Double Tap
 * Long Press
 * Overridden Back buton 
+* Swipe Up
+* Swipe Down
+* Swipe Left
+* Swipe Right
 
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
