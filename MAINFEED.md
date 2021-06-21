@@ -42,7 +42,7 @@ We also have a feature to smartly detect when the likes have crossed thousands o
 
 
 ### 3. Commenting on a Post
-Our app allows people to add comments on any post in their feed. All the comments are saved with the userid of the person who commented and if you click the username then you can visit their profile as well. The comments are saved in the backend in the post under the comment section. 
+Our app allows people to add comments on any post in their feed. All the comments are saved with the userid of the person who commented and if you click the username then you can visit their profile as well ([Click Here]() to learn more abouth that). The comments are saved in the backend in the post under the comment section. 
 
 
 <p align="center">
@@ -72,4 +72,5 @@ In the example below **Naman Agarwal** is searched by the college first, then th
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122741670-cebd9d00-d2a2-11eb-8f6c-ef6a0b8f003c.gif"> 
 </p>
 
-
+#### Other User's Profile Page
+After searchinng for a particular user you can see their profile page. 
