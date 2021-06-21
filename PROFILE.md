@@ -4,7 +4,7 @@
 The user profile is a complete description of the user that displays the profile photo, the name, user name, and a slider displaying their branch, year and college. It also displays the description provided by the user and posts uploaded by them. The user can also edit these details according on their convince.
 
 ## Cloud Function - deletePost
-
+We have created a cloud fucntion to delete a post uploaded by the user. Deleting a post is a complex query. It needs to be deleted from the **Post** Collection and then it needs to be removed from the user who uploaded it and from the feed of all the people who were the users friend. Which can be a time consuming task if the number of friends is large. To ensure atomicity in the execution of this complex query we have implimented it through a cloud fuction. There we use a ```promise``` to execute this asyncronous query of delete.
 
 ## Features
 ### 1. See Details
