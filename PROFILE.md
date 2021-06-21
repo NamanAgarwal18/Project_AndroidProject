@@ -17,4 +17,5 @@ To get more information about **Others Profile Page** [Click Here](https://githu
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122764362-076a7000-d2bd-11eb-8b36-843254262334.gif" > 
 </p>
 
+3. For enhancing user experience, a grid view is present the bottom of the user profile which presents a tiny sneak peak of the post. The miniature canvas displays the rounded of number of likes and comments (1K, 1M) and also presents a description preview of the post. The user can like or dislike this post from here and a long press of the image opens up the post which displays the actual number of likes and all the comments on the post. The user can also delete the post from here.
 
