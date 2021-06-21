@@ -24,5 +24,8 @@ We have also created a cloud fucntion to dislike a previously liked post by a us
 ### 1. Background Detection
 Our aim was to have a consistent look and feel to all the posts, thats why we decided that all the posts must be shown in a 1:1 ration. But with this we encountered a problem where either we had to force the user to post all the pictures in a 1:1 format or add on an additional background to each picture to show it in 1:1 ratio. We chose to show an additional background with the image and to make it more dynamic and personalised we used a **Palette API** which analyses the post and finds out the second most dominant shade in the entire picture and then we assign that shade to the background. This enables us to get a different coloured background based on the picture being shown to the user thus making it less monotnous and a happy surprise with ech picture. This also helps our app add some level of our creaticity with the post posted by the user. 
 
+<p align="center">
+<img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122726148-5c918c00-d293-11eb-8fef-c2acc62f16cf.gif"> 
+</p>
 ### 2. Liking a Post
 Our app allows people to like any post in their feed. There is a like button on the bottom-left corner of every post 
