@@ -31,8 +31,8 @@ The user can access this page by selecting the **Edit Button** or can ```Double 
 </p>
 
 ### 4. Interact with your posts 
-For enhancing user experience, a grid view is present the bottom of the user profile which presents a tiny sneak peak of the post. The miniature canvas displays the rounded of number of likes and comments (1K, 1M) and also presents a description preview of the post. The user can like or dislike this post from here and a ```Long Press``` of the image opens up the post which displays the actual number of likes and all the comments on the post.
-The user can also delete the post from here using **deletePost** Cloud Fucntion.
+For enhancing user experience, a grid view is present the bottom of the user profile which presents a tiny sneak peak of the post. The miniature canvas displays the rounded of number of likes and comments (1K, 1M) and also presents a description preview of the post. The user can like or dislike this post from here and a ```Long Press``` of the image opens up the post which displays the actual number of likes and all the comments on the post. <br>
+The user can also delete the post from here using **deletePost** Cloud Fucntion. <br>
 To know more about **deletePost Cloud Fucntion** [Click Here](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/PROFILE.md#cloud-function---deletepost)
 
 <p align="center">
