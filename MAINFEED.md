@@ -68,7 +68,7 @@ Users have the option to search for another user in the search bar. The user can
 In the example below **Naman Agarwal** is searched by the college first, then the branch, then the year and then the surname. The final search string being: <br>
 
 <p align="center">
-  <b> "bms comp 3 agar" </b>
+  <b> "bms comp 3 agar" </b> <br>
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122741670-cebd9d00-d2a2-11eb-8f6c-ef6a0b8f003c.gif"> 
 </p>
 
