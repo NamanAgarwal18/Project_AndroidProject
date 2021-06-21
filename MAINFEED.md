@@ -56,10 +56,9 @@ While uploading a picture you can tag all the people in the picture. By clicking
 
 <p align="center">
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122740277-70dc8580-d2a1-11eb-8a7b-7ec09b6941b9.gif"> 
-  </>
+  </p>
 
   
 ## Search Functionalities
 ### Search Description
-  
-The user is granted the ability to search other users or search any college for information. Real time multi-word search is used to get the desired outcome, the search bar not case sensitive. The search uses highly advanced search algorithm, that enables the user to dynamically search the word even with a morpheme/ phrase (part of word) and display results appropriately. For increasing usability, the user can directly get the search option by using **Swipe Down** gesture. The feed is reloaded as soon as the user clears the search bar or as soon as the user **Swipes Up** .
+The user is granted the ability to search other users or search any college for information. Real time multi-word search is used to get the desired outcome, the search bar not case sensitive. The search uses highly advanced search algorithm, that enables the user to dynamically search the word even with a morpheme/ phrase (part of word) and display results appropriately. For increasing usability, the user can directly get the search option by using **Swipe Down** gesture. The feed is reloaded as soon as the user clears the search bar or as soon as the user **Swipes Up**.
