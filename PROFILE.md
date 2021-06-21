@@ -3,6 +3,9 @@
 ## Description 
 The user profile is a complete description of the user that displays the profile photo, the name, user name, and a slider displaying their branch, year and college. It also displays the description provided by the user and posts uploaded by them. The user can also edit these details according on their convince.
 
+## Cloud Function - deletePost
+
+
 ## Features
 ### 1. See Details
 The user can access details such as college name, course enrolled in and year by using the slider, which allows them to slide to see the next information. It is an innovative way to present more information using less space and make the profile even more dynamic. 
@@ -27,5 +30,10 @@ The user can access this page by selecting the **Edit Button** or can ```Double 
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122778733-dc871880-d2ca-11eb-9a2f-1f50bd4345b3.jpg" > 
 </p>
 
-4. For enhancing user experience, a grid view is present the bottom of the user profile which presents a tiny sneak peak of the post. The miniature canvas displays the rounded of number of likes and comments (1K, 1M) and also presents a description preview of the post. The user can like or dislike this post from here and a long press of the image opens up the post which displays the actual number of likes and all the comments on the post. The user can also delete the post from here.
+### 4. Interact with your posts 
+For enhancing user experience, a grid view is present the bottom of the user profile which presents a tiny sneak peak of the post. The miniature canvas displays the rounded of number of likes and comments (1K, 1M) and also presents a description preview of the post. The user can like or dislike this post from here and a ```Long Press``` of the image opens up the post which displays the actual number of likes and all the comments on the post.
+The user can also delete the post from here using deletePost cloud fucntion.
 
+<p align="center">
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122780383-6d122880-d2cc-11eb-9962-29bd57f2f5f1.gif" > 
+</p>
