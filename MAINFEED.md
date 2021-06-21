@@ -72,5 +72,16 @@ In the example below **Naman Agarwal** is searched by the college first, then th
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122741670-cebd9d00-d2a2-11eb-8f6c-ef6a0b8f003c.gif"> 
 </p>
 
-#### Other User's Profile Page
-After searchinng for a particular user you can see their profile page. 
+### Other User's Profile Page
+After searchinng for a particular user you can see their profile page. After going on somebodies profile page you can do a couple of different fucntions: 
+#### Look at their college details 
+#### See their DP and their name as well as their discreption
+#### Look at the number of friends thay already have. 
+#### Can create a chat with them. ([Click Here]() for more information about that)
+#### View their posts (only if they are your friend)
+#### You can add them as a friend as well. 
+Adding somebody as a friend add their prominent tags into your tags. As you might be interested in the same kinds of things as they are. Adding their tags can also help recommend more people like the other user to be your friends. This is one of the ways by which we get to know more and more about you. Adding somebody as friend also enables you to see all they pictures that they have posted in the past on their profile page and all the posts that they will post in future in your feed. <br>
+You also have the the option to remove somebody as your friend later on by clicking that button. 
+<p align="center">
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122744733-e9454580-d2a5-11eb-871b-435798d0e7a4.gif"> 
+</p>
