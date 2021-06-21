@@ -12,11 +12,12 @@ Student Connect is a Social Media app created for android. It has all the basic 
 ## Tools Used
 1. Android Studio
 2. Android Virtual Device
-3. Firebase Authentication
-4. Firebase Firestore (database)
-5. Firebase Storage
-6. Firebase Cloud Fuctions
-7. Firebase Machine Learning kit
+3. Google Map
+4. Firebase Authentication
+5. Firebase Firestore (database)
+6. Firebase Storage
+7. Firebase Cloud Fuctions
+8. Firebase Machine Learning kit
    * Face Detection (On Device)
    * Image Labeling (On Cloud)
 
