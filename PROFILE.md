@@ -38,3 +38,9 @@ To know more about **deletePost Cloud Fucntion** [Click Here](https://github.com
 <p align="center">
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122780383-6d122880-d2cc-11eb-9962-29bd57f2f5f1.gif" > 
 </p>
+
+### 4. Interact with Posts you are tagged in
+Similar to your own posts for enhancing user experience, a grid view is present the bottom of the user profile which presents a tiny sneak peak of the post. The miniature canvas displays the rounded of number of likes and comments (1K, 1M) and also presents a description preview of the post. The user can like or dislike this post from here and a ```Long Press``` of the image opens up the post which displays the actual number of likes on the post. The user can also delete the tag from the post there. 
+<p align="center">
+    <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122785358-f297d780-d2d0-11eb-8d0a-44b51b81bb71.gif" > 
+</p>
