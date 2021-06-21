@@ -60,7 +60,6 @@ While uploading a picture you can tag all the people in the picture. By clicking
 
   
 ## Search Functionalities
-### Search Description
 The user is granted the ability to search other users or search any college for information. Real time multi-word search is used to get the desired outcome, the search bar not case sensitive. The search uses highly advanced search algorithm, that enables the user to dynamically search the word even with a morpheme/ phrase (part of word) and display results appropriately. For increasing usability, the user can directly get the search option by using **Swipe Down** gesture. The feed is reloaded as soon as the user clears the search bar or as soon as the user **Swipes Up**.
 
 ### 1. Search a User
@@ -81,7 +80,7 @@ After searchinng for a particular user you can see their profile page. After goi
 If the user tries to message to somebody who isn't a friend, the system prompt would warn the receiver that the sender isn’t a friend. 
 #### 5. View their posts (only if they are your friend)
 #### 6. You can also like and dislike their posts if you are a friend.
-#### 8. You can also ```LONG Press``` on a post and see the post in detail.
+#### 8. You can also ```LONG Press``` on a post to see and interact the post in detail.
 
 <p align="center">
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122745790-f9a9f000-d2a6-11eb-9b90-27ea02efd496.png"> 
@@ -92,4 +91,11 @@ Adding somebody as a friend add their prominent tags into your tags. As you migh
 You also have the the option to remove somebody as your friend later on by clicking that button. 
 <p align="center">
   <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122744733-e9454580-d2a5-11eb-871b-435798d0e7a4.gif"> 
+</p>
+
+### 2. Search a College
+The user can search college pages and access it by using a ```@``` symbol before entering other details. 
+<p align="center">
+
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122748228-92da0600-d2a9-11eb-9032-3970afdbc675.gif"> 
 </p>
