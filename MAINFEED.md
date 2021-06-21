@@ -31,4 +31,11 @@ For more information on **Palette API** [Click Here](https://developer.android.c
 
 ### 2. Liking/Disliking a Post
 Our app allows people to like any post in their feed. There is a like button on the bottom-left corner of every post. When the like button is pressed, then a **Cloud Fucntion** named [likePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---likepost) is called which does all the heavy lifting. <br>
-Our app also allows people to dislike any post in their feed that they previously liked. A dislike button appears in the bottom-left corner if the post is already liked. When the dislike button is pressed, then a **Cloud Fucntion** named [dislikePost](cloud_function_-_dislikePost) is called which does all the heavy lifting.
+Our app also allows people to dislike any post in their feed that they previously liked. A dislike button appears in the bottom-left corner if the post is already liked. When the dislike button is pressed, then a **Cloud Fucntion** named [dislikePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---dislikepost) is called which does all the heavy lifting.
+We also have a feature to smartly detect when the likes have crossed thousands or even millions and we have an elegant way to represent that in our UI by using terms like **"2.13K Likes"** or **"2.34M Likes"** instead of showing the complete number.
+
+<p align="center">
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122728022-53a1ba00-d295-11eb-960c-fd7d8209fcb8.jpg"> 
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122728093-63210300-d295-11eb-8752-0b1176da475c.jpg"> 
+  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/122728174-78962d00-d295-11eb-9b23-7cdd4d7dc72a.png"> 
+</p>
