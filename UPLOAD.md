@@ -20,6 +20,12 @@ We are implementing the **Image Labeling** tool to generate the dataset for our 
 At the time of collecting the lables provided by the API we are also filtering out some unwanted lables that are not needed and are unsuitable for our app. After filtering all the lables and sorting them into different tiers based on their confidence value, we save those labels in the post in order to add them into the users who like the post lateron and we add these lables in the users tagged and the user uploading in various ratios to ensure we get a full understanding of what a user likes and what he doesn't like at the end of it. We are using the Cloud version of the API which gives us more accurate results and a wider array of lables. <br>
 For more information about the Api - [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1)
 
+<p align="center">
+<img width="800" height="400" src="https://user-images.githubusercontent.com/53811147/122893041-929e4100-d363-11eb-9fef-ef0e49eb2447.gif"> 
+</p>
+
+
+
 ## Face Detection (Inbuilt)
 With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces. Note that the API detects faces, it does not recognize people. <br>
 We are implementing the **Face Detection** tool to generate the dataset for our machine algorithm to work on and to prompt users to tag people that might be in the picture. We detect faces at the time of upload and then identify all the faces and the coordinates of the rectangular box enclosing the face. We use this data to ask the users to tag each face which helps us build realtions between users who tag each other which feeds our Machine Learning Algorithm. We also identify weather the faces are smiling or not and if the majority of the faces are smiling (above 75% ) then we conclude that the picture is a happy picture or else we conclude that its a sad picture or we are unsure about the emotion of the picture. We are using the On App version of this API. <br>
