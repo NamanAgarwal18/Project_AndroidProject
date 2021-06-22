@@ -81,6 +81,9 @@ We have created in total 7 cloud fucntions out of which 5 cloud functions are us
 * Swipe Left
 * Swipe Right
 
+## Navigation through the App
+You can navigate to different activities by intuitively swiping left and right to switch between them. Along with that wherever there is a search bar available you can activate it by swiping down and eactivate it by swiping it up. 
+
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
   * ```de.hdodenhof:circleimageview:3.1.0```
