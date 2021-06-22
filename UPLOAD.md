@@ -30,3 +30,8 @@ For more information about the Api - [Click Here](https://firebase.google.com/do
 With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces. Note that the API detects faces, it does not recognize people. <br>
 We are implementing the **Face Detection** tool to generate the dataset for our machine algorithm to work on and to prompt users to tag people that might be in the picture. We detect faces at the time of upload and then identify all the faces and the coordinates of the rectangular box enclosing the face. We use this data to ask the users to tag each face which helps us build realtions between users who tag each other which feeds our Machine Learning Algorithm. We also identify weather the faces are smiling or not and if the majority of the faces are smiling (above 75% ) then we conclude that the picture is a happy picture or else we conclude that its a sad picture or we are unsure about the emotion of the picture. We are using the On App version of this API. <br>
 For more information about the Api - [Click Here](https://developers.google.com/ml-kit/vision/face-detection)
+
+<p align="center">
+<img width="800" height="400" src="https://user-images.githubusercontent.com/53811147/122894327-b746e880-d364-11eb-988c-e1842ba8b903.gif"> 
+</p>
+
