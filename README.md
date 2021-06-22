@@ -64,7 +64,7 @@ For more information about the **Firebase Cloud Funtions** [Click Here](https://
 ### Cloud Functions Created
 We have created in total 7 cloud fucntions out of which 5 cloud functions are used in our application. All these Cloud functions are written in **JavaScript** by us and executed on Google's Cloud. These fucntions are deployed on the ```asia-south1``` server as it is the nearest to India and provides low latency. The cloud fucntions currently in use by our app are:
 1. [createUser](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SIGNUP.md#cloud-function---createuser)
-2. [uploadPost]()
+2. [uploadPost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/UPLOAD.md#cloud-function---uploadpost)
 3. [deletePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/PROFILE.md#cloud-function---deletepost)
 4. [likePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---likepost)
 5. [dislikePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---dislikepost)
