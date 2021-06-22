@@ -1,7 +1,7 @@
 # Upload Post Activity
 
 
-<a href="https://www.youtube.com/watch?v=upQNUSlKagk" target="_blank"><img src="http://img.youtube.com/vi/QNUSlKagk/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
+<a href="https://www.youtube.com/watch?v=upQNUSlKagk" target="_blank"><img src="http://img.youtube.com/vi/upQNUSlKagk/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
 
  
 [<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=upQNUSlKagk)
