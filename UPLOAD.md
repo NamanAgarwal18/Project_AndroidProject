@@ -35,3 +35,9 @@ For more information about the Api - [Click Here](https://developers.google.com/
 <img width="800" height="400" src="https://user-images.githubusercontent.com/53811147/122894327-b746e880-d364-11eb-988c-e1842ba8b903.gif"> 
 </p>
 
+## Cloud Function - uploadPost
+We have also created a cloud fucntion to create all the appropriate directories in the backend parallely and upload the picture to all the feeds. We create a entry of the post in the people who are tagged as well. We also save all the revelent tags based on their tier level in the user who uploaded the post and all the people who are tagged in the post. We also save the picture in the Firebase Storage with this. All this takes a couple of secconds to do and thus the post is not visible for a few seconds even after the post is uploaded successfully.
+
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/53811147/122671989-e6375000-d1e6-11eb-8a79-3001234c0f32.PNG" >
+</p>
