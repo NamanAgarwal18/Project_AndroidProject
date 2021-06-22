@@ -1,5 +1,11 @@
 # Upload Post Activity
 
+
+<a href="https://www.youtube.com/watch?v=upQNUSlKagk" target="_blank"><img src="http://img.youtube.com/vi/QNUSlKagk/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
+
+ 
+[<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=upQNUSlKagk)
+
 ## Description 
 The user can upload a post by selecting the floating upload icon present in the main feed's bottom right corner. The image icon on the upload post activity opens up the user’s gallery and allows them to select an image and loads it up in the upload screen. User can add a description to the image in the form of a text and then go forward with it. This uploaded post is visible to all your friends in their feed as well as on your profile. 
 We also use the **Image labeling** tool to detect all the objects present in the image and use the results as tags for the image. Along with using that we use **Face Detection** model provided by the Google's Firebase Machine Learning Kit to detect all the faces present in a picture and prompt the user to tag them. 
