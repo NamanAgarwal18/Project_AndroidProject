@@ -1,5 +1,10 @@
 # Profile Activity
 
+<a href="https://www.youtube.com/watch?v=c0KoCgOkEOc" target="_blank"><img src="http://img.youtube.com/vi/c0KoCgOkEOc/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
+
+ 
+[<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=c0KoCgOkEOc)
+
 ## Description 
 The user profile is a complete description of the user that displays the profile photo, the name, user name, and a slider displaying their branch, year and college. It also displays the description provided by the user and posts uploaded by them. The user can also edit these details according on their convince.
 
