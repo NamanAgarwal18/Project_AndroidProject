@@ -22,4 +22,9 @@ Here we have used Cosine Similarity.
   <p align = "left"> The idea is to use distance measure, to find the distance (similarity) between the user and the k-closest users in terms of the professional course of the user, the level of completion of their course, posts they have made and interacted with and the people who they are friends with.
 </p></p>
 
-The idea is to use distance measure, to find the distance (similarity) between the user and the k-closest users in terms of the professional course of the user, the level of completion of their course, posts they have made and interacted with and the people who they are friends with.
+Our algorithm finds 8 users who are compatible to you. 
+
+We find out the weight of any tag by the formula 
+```kotlin
+w = (v+1)*(u+1)
+```
