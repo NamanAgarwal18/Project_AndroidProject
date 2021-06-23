@@ -9,7 +9,7 @@ The user chat screen displays all the people with whom the user already had a co
 </p>
 
 ## Features
-### Create a new chat
+### 1. Create a new chat
 The new chat floating icon lists all the user’s friend irrespective of the fact, if they had a conversation with them. A new chat room is opened with a toast indicating this with a friend with whom the user didn’t have any conversation, conversely it opens the same chat room with the person who already had a conversation with the user. The user can also use the search feature provided here.
 
 <p align="center">
