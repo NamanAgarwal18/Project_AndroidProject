@@ -34,4 +34,29 @@ This **System Message** is visible to you when you create a chat with somebody w
 This **System Message** is visible to you when the latest message was deleted by the user. 
 #### v. ```Actual Message```
 This displayes whatever the last message actually was by the user.
+<p align="center">
+    
+ <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/123051304-43b5e180-d41f-11eb-8b3a-146d2c28ea05.png" > 
+</p>
+
+### 3. In chat Features
+When you click on a persons chat a chat room opens up. In the chat roomtThe user can directly go the other person’s profile page by selecting their username/ profile picture. Chat between the users occurs in real-time and the users can concurrently have a conversation. There are many features available in the chat room
+#### ```Double Tap``` a message
+Double Tapping a message can open up a dialog box where you can type up a reply and send a reply. This can be done to both your own message or the other users message.
+#### ```Long Press``` a message
+Long Pressing a message can give you a wide array of fucntions in a dialog box format depending of wheather you long pressed your own message or the other users message.
+1. Your Own Message
+    * Delete the Message
+    * Forward the Message
+    * Copy the Message
+2. Other Users Message
+    * Like/Dislike the Message
+    * Forward the Message
+    * Copy the Message
+
+<p align="center">
+    
+ <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/123056748-d5741d80-d424-11eb-83ca-1d0e42a1d81b.gif" > 
+</p>
+
 
