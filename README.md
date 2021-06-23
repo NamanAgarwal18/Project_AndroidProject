@@ -1,6 +1,11 @@
- # ![final_logo - Copy](https://user-images.githubusercontent.com/53811147/122639587-4f9c5d80-d118-11eb-9916-5deacaa6b877.png) Student Connect - Android Project 
+# ![final_logo - Copy](https://user-images.githubusercontent.com/53811147/122639587-4f9c5d80-d118-11eb-9916-5deacaa6b877.png) Student Connect - Android Project 
 
 ### [Click Here To See The Wireframe](https://whimsical.com/student-connect-2UYaPyhHSAyGvqvHFRGcRN)
+
+### [Click Here To See The Playlist Of Video Demonstration](https://www.youtube.com/playlist?list=PLs0fnoS7Z-igQvCqxp_qxAIisXAHv6Tka) 
+
+
+
 ## Description
 Student Connect is a Social Media app created for android. It has all the basic features like chatting, adding people as friends, posting pictures and interacting with them, searching people and getting in app reccomendations for people that you might know or have a lot in common with. It is created with **Google's Firebase** Firestore backend to store the user data and we have also incorporated many features offered by the Firebase. This project also includes **Machine Learning** to suggest potential friends. 
 
@@ -12,11 +17,12 @@ Student Connect is a Social Media app created for android. It has all the basic 
 ## Tools Used
 1. Android Studio
 2. Android Virtual Device
-3. Firebase Authentication
-4. Firebase Firestore (database)
-5. Firebase Storage
-6. Firebase Cloud Fuctions
-7. Firebase Machine Learning kit
+3. Google Map
+4. Firebase Authentication
+5. Firebase Firestore (database)
+6. Firebase Storage
+7. Firebase Cloud Fuctions
+8. Firebase Machine Learning kit
    * Face Detection (On Device)
    * Image Labeling (On Cloud)
 
@@ -26,12 +32,12 @@ Our App uses 3 different machine learning models in total. Two of them are inbui
 With Cloud Vision's image labeling API, you can recognize entities in an image without having to provide any additional contextual metadata. <br>
 Image labeling gives you insight into the content of images. When you use the API, you get a list of the entities that were recognized: people, things, places, activities, and so on. Each label found comes with a score that indicates the confidence the ML model has in its relevance. With this information, you can perform tasks such as automatic metadata generation and content moderation. <br>
 For more information about the Api - [Click Here](https://firebase.google.com/docs/ml/label-images?authuser=1) <br>
-To understand about the implementation of the Api by us - [Click Here]
+To understand about the implementation of the Api by us - [Click Here](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/UPLOAD.md#image-labeling-inbuilt)
 #### 2. Face Detection (Inbuilt)
 With ML Kit's face detection API, you can detect faces in an image, identify key facial features, and get the contours of detected faces. Note that the API detects faces, it does not recognize people. <br>
 With face detection, you can get the information you need to perform tasks like embellishing selfies and portraits, or generating avatars from a user's photo. Because ML Kit can perform face detection in real time, you can use it in applications like video chat or games that respond to the player's expressions. <br>
 For more information about the Api - [Click Here](https://developers.google.com/ml-kit/vision/face-detection) <br>
-To understand about the implementation of the Api by us - [Click Here]
+To understand about the implementation of the Api by us - [Click Here](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/UPLOAD.md#face-detection-inbuilt)
 #### 3. Friends Recommendation Engine 
 We use user details to make friend suggestions. Friend suggestions depend on the professional course of the user, the level of completion of their course, posts they have made (Their Personal Interests) and interacted with and the people who they are friends with. We have used **Weighted KNN Classifier** for friend recommendations. Each tag is assigned particular value. The friend list is assigned the most value, followed by the course and level of course. Then comes the value of tag of each post, uploaded by the user and finally the least priority is given to the posts with which the user has interacted. <br>
 To understand more about the algorithm used and how we used it - [Click Here](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SUGGESTION.md#machine-learning-concept-used)
@@ -63,10 +69,10 @@ For more information about the **Firebase Cloud Funtions** [Click Here](https://
 ### Cloud Functions Created
 We have created in total 7 cloud fucntions out of which 5 cloud functions are used in our application. All these Cloud functions are written in **JavaScript** by us and executed on Google's Cloud. These fucntions are deployed on the ```asia-south1``` server as it is the nearest to India and provides low latency. The cloud fucntions currently in use by our app are:
 1. [createUser](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SIGNUP.md#cloud-function---createuser)
-2. [deletePost]()
-3. [likePost]()
-4. [dislikePost]()
-5. [uploadPost]()
+2. [uploadPost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/UPLOAD.md#cloud-function---uploadpost)
+3. [deletePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/PROFILE.md#cloud-function---deletepost)
+4. [likePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---likepost)
+5. [dislikePost](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#cloud-function---dislikepost)
 #### Click on the fucntion to know more about it.
 
 
@@ -75,6 +81,22 @@ We have created in total 7 cloud fucntions out of which 5 cloud functions are us
 * Double Tap
 * Long Press
 * Overridden Back buton 
+* Swipe Up
+* Swipe Down
+* Swipe Left
+* Swipe Right
+
+## Navigation through the App
+You can navigate to different activities by intuitively swiping left and right to switch between them. Along with that wherever there is a search bar available you can activate it by swiping down and eactivate it by swiping it up. 
+
+## Click here to get Detailed Information About
+1. [Login Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/LOGIN.md#login-activity)
+2. [SignUp Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SIGNUP.md#sign-up-activity-and-college-details-activity)
+3. [Main Feed Activity and Search Fucntonality](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#main-feed-activity-and-search-fucntonality)
+4. [Upload Post Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/UPLOAD.md#upload-post-activity)
+5. [Profile Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/PROFILE.md#profile-activity)
+6. [Chat Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/CHAT.md#chat-activity)
+7. [Suggestion Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SUGGESTION.md#suggestion-activity)
 
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
