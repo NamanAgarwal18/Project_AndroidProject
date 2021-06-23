@@ -22,7 +22,7 @@ Here we have used Cosine Similarity.
   <p align = "left"> The idea is to use distance measure, to find the distance (similarity) between the user and the k-closest users in terms of the professional course of the user, the level of completion of their course, posts they have made and interacted with and the people who they are friends with.
 </p></p>
 
-## Our implementation 
+## Our Implementation 
 
 Our algorithm finds **8** users who are compatible to you. We do that by getting the cosine distance of 3 different categories. Those Categories are:
 1. How similar they are to you (aka ```tagSinDistance```)
