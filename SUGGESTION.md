@@ -22,9 +22,37 @@ Here we have used Cosine Similarity.
   <p align = "left"> The idea is to use distance measure, to find the distance (similarity) between the user and the k-closest users in terms of the professional course of the user, the level of completion of their course, posts they have made and interacted with and the people who they are friends with.
 </p></p>
 
-Our algorithm finds 8 users who are compatible to you. 
+## Our implementation 
 
+Our algorithm finds **8** users who are compatible to you. We do that by getting the cosine distance of 3 different categories. Those Categories are:
+1. How similar they are to you (aka ```tagSinDistance```)
+2. How similar you are to them (aka ```tagOtherSinDistance```)
+3. How likely is it that you know each other (aka ```userSinDistance```)
+Now we will explain all of these different values and how to calculate them.
+
+### tagSinDistance
+Here we collect all the tags for our user with its frequency of occurrence (```v_frequency```) and then we check how many of those tags are present in the other user and with what frequency (```u_frequency```) and based on that we calculate the cosine distance using the formula mentioned above. 
 We find out the weight of any tag by the formula 
+ 
+
+### tagOtherSinDistance
+Here we collect all the tags for the other user with its frequency of occurrence (```v_frequency```) and then we check how many of those tags are present in our user and with what frequency (```u_frequency```) and based on that we calculate the cosine distance using the formula mentioned above. 
+
+### userSinDistance
+Here we check a hug variety of things that predicts the likelyhood of them knowing eachother. Those things are
+1. How many mutual friends they have ?
+2. Have they been tagged by same people in posts ?
+3. Do they have any previous chats between them ?
+4. Do they study in the same college ?
+5. Do they study in the same branch and if they do then are they in the same year ?
+Based on all the data we try to figureout the answers to these questions and then we calculate the Cosine Distance. 
+
+### Weight for any Tag
 ```kotlin
-w = (v+1)*(u+1)
+w = ( v_frequency + 1 ) * ( u_frequency + 1 )
+```
+
+### Total Aggregate 
+```kotlin
+var aggregate = ( 16 * tagSinDistance + 9 * userSinDistance + 3 * tagOtherSinDistance ) / 28
 ```
