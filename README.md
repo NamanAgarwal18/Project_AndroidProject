@@ -84,6 +84,10 @@ We have created in total 7 cloud fucntions out of which 5 cloud functions are us
 ## Navigation through the App
 You can navigate to different activities by intuitively swiping left and right to switch between them. Along with that wherever there is a search bar available you can activate it by swiping down and eactivate it by swiping it up. 
 
+## Different Activities Created
+1. [Login Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/LOGIN.md#login-activity)
+2. [SignUp Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SIGNUP.md#sign-up-activity-and-college-details-activity)
+
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
   * ```de.hdodenhof:circleimageview:3.1.0```
