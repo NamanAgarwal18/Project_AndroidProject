@@ -84,9 +84,14 @@ We have created in total 7 cloud fucntions out of which 5 cloud functions are us
 ## Navigation through the App
 You can navigate to different activities by intuitively swiping left and right to switch between them. Along with that wherever there is a search bar available you can activate it by swiping down and eactivate it by swiping it up. 
 
-## Different Activities Created
+## Click here to get Detailed Information About
 1. [Login Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/LOGIN.md#login-activity)
 2. [SignUp Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SIGNUP.md#sign-up-activity-and-college-details-activity)
+3. [Main Feed Activity and Search Fucntonality](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/MAINFEED.md#main-feed-activity-and-search-fucntonality)
+4. [Upload Post Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/UPLOAD.md#upload-post-activity)
+5. [Profile Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/PROFILE.md#profile-activity)
+6. [Chat Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/CHAT.md#chat-activity)
+7. [Suggestion Activity](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SUGGESTION.md#suggestion-activity)
 
 ## APIs and External Libraries Used
 * Circular Image View – loads image in a circular fashion 
