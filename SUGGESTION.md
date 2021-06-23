@@ -10,6 +10,7 @@ The activity focuses on creating and using an algorithm that would allow robust 
 
 ## Machine Learning Concept Used
 We use user details to make friend suggestions. Friend suggestions depend on the professional course of the user, the level of completion of their course, posts they have made and interacted with and the people who they are friends with.
+
 We have used Weighted KNN Classifier for friend recommendations. Each tag is assigned particular value. The friend list is assigned the most value, followed by the course and level of course. Then comes the value of tag of each post, uploaded by the user and finally the least priority is given to the posts with which the user has interacted. Tags of each post uploaded or interacted with is stored in the background and a value is given to it. If a similar type of post is uploaded by the user or they have interacted with one, the aggregated value is recalculated and the tag value is increased. This new aggregate value is used to people with similar interests and a percentage of compatibility is shown to the user so that they can take a decision whether to befriend another user or not.
 
 ## Machine Learning Algorithm - Weighted KNN Algorithm
@@ -64,5 +65,7 @@ var aggregate = ( 16 * tagSinDistance + 3 * tagOtherSinDistance + 9 * userSinDis
 ### Percentile
 Based on all the aggregates we select 8 users with highest values and assign the best match as high 90s percentile and based on that we calculate the percentile of all the other users. This does not represent the actual percentile but is just a representative of how similar you might be when compared to the other recommended people. This also makes our app feel a little more dynamic.
 
-
 </details>
+
+
+
