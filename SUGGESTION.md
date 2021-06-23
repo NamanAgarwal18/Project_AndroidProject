@@ -17,6 +17,9 @@ Calculate Similarity based on distance function.
 
 Here we have used Cosine Similarity.
 
-![image](https://user-images.githubusercontent.com/53811147/123080073-2d694f00-d43a-11eb-8035-8fb30cfcc3d3.png)
+<p align="center">
+  <img align="left" src="https://user-images.githubusercontent.com/53811147/123080073-2d694f00-d43a-11eb-8035-8fb30cfcc3d3.png"> 
+  The idea is to use distance measure, to find the distance (similarity) between the user and the k-closest users in terms of the professional course of the user, the level of completion of their course, posts they have made and interacted with and the people who they are friends with.
+</p>
 
 The idea is to use distance measure, to find the distance (similarity) between the user and the k-closest users in terms of the professional course of the user, the level of completion of their course, posts they have made and interacted with and the people who they are friends with.
