@@ -5,9 +5,6 @@ The activity focuses on creating and using an algorithm that would allow robust 
 
 <p align="center">
 <img width="700" height="215" src="https://user-images.githubusercontent.com/53811147/123079202-550be780-d439-11eb-8b8b-b7854d50d0b7.png"> 
+  <img width="700" height="280" src="https://user-images.githubusercontent.com/53811147/123079214-56d5ab00-d439-11eb-9580-2a72055fea24.png"> 
 
 </p>
-
-
-![image]()
-![image](https://user-images.githubusercontent.com/53811147/123079214-56d5ab00-d439-11eb-9580-2a72055fea24.png)
