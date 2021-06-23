@@ -34,7 +34,7 @@ For more information about the Api - [Click Here](https://developers.google.com/
 To understand about the implementation of the Api by us - [Click Here]
 #### 3. Friends Recommendation Engine 
 We use user details to make friend suggestions. Friend suggestions depend on the professional course of the user, the level of completion of their course, posts they have made (Their Personal Interests) and interacted with and the people who they are friends with. We have used **Weighted KNN Classifier** for friend recommendations. Each tag is assigned particular value. The friend list is assigned the most value, followed by the course and level of course. Then comes the value of tag of each post, uploaded by the user and finally the least priority is given to the posts with which the user has interacted. <br>
-To understand more about the algorithm used and how we used it - [Click Here]
+To understand more about the algorithm used and how we used it - [Click Here](https://github.com/NamanAgarwal18/Project_AndroidProject/blob/main/SUGGESTION.md#machine-learning-concept-used)
 
 ## Functionalities
 1. Students can Signin or SignUp in the app using appropreate credentials.
