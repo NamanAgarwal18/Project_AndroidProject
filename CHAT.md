@@ -1,5 +1,11 @@
 # Chat Activity
 
+
+<a href="https://www.youtube.com/watch?v=C6kA_VBoNOU" target="_blank"><img src="http://img.youtube.com/vi/C6kA_VBoNOU/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
+
+ 
+[<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=C6kA_VBoNOU)
+
 ## Description 
 The user chat screen displays all the people with whom the user already had a conversation. The user can search for other users or friends using the search button present at the top bar. The User can select any user and a new chat window opens from which the user can chat with the selected person. The user chat displays all the current chats available (including both friends and not friends). The list also gives a preview of the last message with the other user.
 
