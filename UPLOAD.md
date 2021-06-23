@@ -51,3 +51,6 @@ We have also created a cloud fucntion to create all the appropriate directories 
  ## Tagging People
  We give you an option to tag everyface identified by **Face Detect** API. You can tag anybody except you in the photo and you also have to tag novody for a face by clicking on none. To search a username there is a search bar below that helps you find the correct person. The person tagged will be able to see the photo in their tagged section as well.
  
+<p align="center">
+<img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/123050577-7c08f000-d41e-11eb-9e5a-7183dc6ef4b5.gif"> 
+</p>
