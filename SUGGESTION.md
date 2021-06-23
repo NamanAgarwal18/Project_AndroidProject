@@ -78,3 +78,8 @@ All the results are arrainged in decending order and you have an option to go in
 1. Latest Post posted by the user
 2. Top reasons to recommend the user
 
+<p align="center">
+<img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/123087289-0151cc00-d442-11eb-9996-54f7c4b9efc4.gif"> 
+</p>
+
+
