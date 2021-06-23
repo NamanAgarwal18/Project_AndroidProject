@@ -1,5 +1,11 @@
 # Suggestion Activity
 
+
+<a href="https://www.youtube.com/watch?v=nDFdFlSwJUs" target="_blank"><img src="http://img.youtube.com/vi/nDFdFlSwJUs/hqdefault.jpg" alt="IMAGE ALT TEXT HERE" width="500" height="375" border="20" />
+
+ 
+[<h3>Click Here To Watch The Video Demonstration</h3>](https://www.youtube.com/watch?v=nDFdFlSwJUs)
+
 ## Description 
 The activity focuses on creating and using an algorithm that would allow robust friend recommendation, which would help people with similar interests, professional course and similar background to come together. User information such as their professional course, their degree (bachelor, master’s etc), the level of completion of their course, their friends and the type of posts they have posted or interacted with are stored in the backend. This information servers as an input in the backend and after the usage of machine learning algorithm an aggregate value of similarity is found between two users and a percentage of similarity of the two users is found and displayed in the friend recommendation section of the app.
 
