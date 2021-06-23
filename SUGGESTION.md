@@ -29,7 +29,7 @@ Here we have used Cosine Similarity.
 
 ## Our Implementation 
 
-Our algorithm finds **8** users who are compatible to you. We do that by getting the cosine distance of 3 different categories. Those Categories are:
+Our algorithm finds **7** users who are compatible to you. We do that by getting the cosine distance of 3 different categories. Those Categories are:
 1. How similar they are to you (aka ```tagSinDistance```)
 2. How similar you are to them (aka ```tagOtherSinDistance```)
 3. How likely is it that you know each other (aka ```userSinDistance```)
@@ -67,7 +67,7 @@ var aggregate = ( 16 * tagSinDistance + 3 * tagOtherSinDistance + 9 * userSinDis
 ```
 
 ### Percentile
-Based on all the aggregates we select 8 users with highest values and assign the best match as high 90s percentile and based on that we calculate the percentile of all the other users. This does not represent the actual percentile but is just a representative of how similar you might be when compared to the other recommended people. This also makes our app feel a little more dynamic.
+Based on all the aggregates we select 7 users with highest values and assign the best match as high 90s percentile and based on that we calculate the percentile of all the other users. This does not represent the actual percentile but is just a representative of how similar you might be when compared to the other recommended people. This also makes our app feel a little more dynamic.
 
 </details>
 
