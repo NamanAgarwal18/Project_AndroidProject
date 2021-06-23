@@ -29,6 +29,7 @@ Our algorithm finds **8** users who are compatible to you. We do that by getting
 2. How similar you are to them (aka ```tagOtherSinDistance```)
 3. How likely is it that you know each other (aka ```userSinDistance```)
 
+<details><summary>Click Here To Know About It In Detail</summary>
 
 ### tagSinDistance
 Here we collect all the tags for our user with its frequency of occurrence (```v_frequency```) and then we check how many of those tags are present in the other user and with what frequency (```u_frequency```) and based on that we calculate the cosine distance using the formula mentioned above. 
@@ -64,4 +65,4 @@ var aggregate = ( 16 * tagSinDistance + 3 * tagOtherSinDistance + 9 * userSinDis
 Based on all the aggregates we select 8 users with highest values and assign the best match as high 90s percentile and based on that we calculate the percentile of all the other users. This does not represent the actual percentile but is just a representative of how similar you might be when compared to the other recommended people. This also makes our app feel a little more dynamic.
 
 
-
+</details>
