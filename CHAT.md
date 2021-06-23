@@ -24,14 +24,14 @@ The user chat screen displays all the people with whom the user already had a co
 2. A message send by some other user
 3. A system Message (For user convince system messages are in italics.)
 There are many different kinds of messages that a user can see as the latest message in the chat section. These messages can be system message or user message. The messages can be:
-#### 1. *```Username``` is not in your Friend List.* 
+#### i. *```Username``` is not in your Friend List.* 
 This **System Message** is visible when you recieve a message from somebody who is not in your friendlist for the first time.  
-#### 2. *Why don't you add ```Username``` as a Friend* 
+#### ii. *Why don't you add ```Username``` as a Friend* 
 This **System Message** is visible to you when you send a message to somebody who is not in your friendlist for the first time. 
-#### 3. *Say Hi* 
+#### iii. *Say Hi* 
 This **System Message** is visible to you when you create a chat with somebody who is in your friendlist but no messages have been exchanged yet. 
-#### 4. *This message was deleted* 
+#### iv. *This message was deleted* 
 This **System Message** is visible to you when the latest message was deleted by the user. 
-#### 5. ```Actual Message```
+#### v. ```Actual Message```
 This displayes whatever the last message actually was by the user.
 
