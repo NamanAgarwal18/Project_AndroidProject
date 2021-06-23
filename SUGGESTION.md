@@ -28,7 +28,7 @@ Our algorithm finds **8** users who are compatible to you. We do that by getting
 1. How similar they are to you (aka ```tagSinDistance```)
 2. How similar you are to them (aka ```tagOtherSinDistance```)
 3. How likely is it that you know each other (aka ```userSinDistance```)
-Now we will explain all of these different values and how to calculate them.
+
 
 ### tagSinDistance
 Here we collect all the tags for our user with its frequency of occurrence (```v_frequency```) and then we check how many of those tags are present in the other user and with what frequency (```u_frequency```) and based on that we calculate the cosine distance using the formula mentioned above. 
@@ -45,14 +45,23 @@ Here we check a hug variety of things that predicts the likelyhood of them knowi
 3. Do they have any previous chats between them ?
 4. Do they study in the same college ?
 5. Do they study in the same branch and if they do then are they in the same year ?
+
 Based on all the data we try to figureout the answers to these questions and then we calculate the Cosine Distance. 
 
 ### Weight for any Tag
+While calculating the weiighted cosine distance we need to have a weight assigned to all the tags. We calculate the weight based on the frequency
 ```kotlin
 w = ( v_frequency + 1 ) * ( u_frequency + 1 )
 ```
 
 ### Total Aggregate 
+We calculate the total aggregate in the ratio of 16:3:9, giving 57% weightage to the tagSinDistance, 11% weightage to tagOtherSinDistance and around 32% weightage to the userSinDistance. 
 ```kotlin
-var aggregate = ( 16 * tagSinDistance + 9 * userSinDistance + 3 * tagOtherSinDistance ) / 28
+var aggregate = ( 16 * tagSinDistance + 3 * tagOtherSinDistance + 9 * userSinDistance) / 28
 ```
+
+### Percentile
+Based on all the aggregates we select 8 users with highest values and assign the best match as high 90s percentile and based on that we calculate the percentile of all the other users. This does not represent the actual percentile but is just a representative of how similar you might be when compared to the other recommended people. This also makes our app feel a little more dynamic.
+
+
+
