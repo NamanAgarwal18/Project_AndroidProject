@@ -59,4 +59,6 @@ Long Pressing a message can give you a wide array of fucntions in a dialog box f
  <img width="243" height="500" src="https://user-images.githubusercontent.com/53811147/123056748-d5741d80-d424-11eb-83ca-1d0e42a1d81b.gif" > 
 </p>
 
+#### 4. Machine Learning Dataset Collection
+Adds people whoo you have chatted with in another collection **("Chat Users")** based on how many messages have been exchanged. This helps us in our friend recommendation machine learning algorithm lateron. 
 
