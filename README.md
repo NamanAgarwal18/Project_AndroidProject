@@ -3,7 +3,7 @@
 ### [Click Here To See The Wireframe](https://whimsical.com/student-connect-2UYaPyhHSAyGvqvHFRGcRN)
 
 ### [Click Here To See The Playlist Of Video Demonstration](https://www.youtube.com/playlist?list=PLs0fnoS7Z-igQvCqxp_qxAIisXAHv6Tka) 
-![image](https://user-images.githubusercontent.com/53811147/123111625-aed0d980-d45a-11eb-8414-d71ac6853795.png)
+
 
 
 ## Description
